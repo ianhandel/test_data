@@ -7,3 +7,4 @@ dat <- dplyr::bind_rows(dat, data.frame(date = date())) %>%
   select(date)
 
 write_csv(dat, "test.csv")
+
